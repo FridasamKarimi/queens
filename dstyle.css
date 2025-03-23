@@ -1,0 +1,64 @@
+/* Dress Section */
+.dresses {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.dresses h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.dress-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dress-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dress-card:hover {
+    transform: scale(1.05);
+}
+
+.dress-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.dress-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 18px;
+    color: #e76f51;
+    font-weight: bold;
+}
+
+.buy-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: #e76f51;
+}
